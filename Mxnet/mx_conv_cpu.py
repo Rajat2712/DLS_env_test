@@ -36,11 +36,12 @@ class Net(gluon.Block):
         x = F.tanh(self.fc1(x))
         x = F.tanh(self.fc2(x))
         return x
-    
-    
+
+
 net = Net()
 # set the context on GPU is available otherwise CPU
 ctx = [ mx.cpu()]
+print(ctx)
 #ctx = [mx.gpu()]
 net.initialize(mx.init.Xavier(magnitude=2.24), ctx=ctx)
 trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.03})
@@ -79,7 +80,7 @@ for i in range(epoch):
     # Reset evaluation result to initial state.
     metric.reset()
     print('training acc at epoch %d: %s=%f'%(i, name, acc))
-    
+
 # Use Accuracy as the evaluation metric.
 metric = mx.metric.Accuracy()
 # Reset the validation data iterator.
