@@ -1,6 +1,3 @@
-install these packages first using the following commands:
+Output
 
-pip install scipy
-
-
-pip install sklearn
+![chainer](https://user-images.githubusercontent.com/23000971/44314690-355a4680-a439-11e8-81cf-97c60a40b57a.png)
