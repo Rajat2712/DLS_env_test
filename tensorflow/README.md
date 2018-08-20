@@ -1,6 +1,13 @@
-install these packages first using the following commands:
+Files for both CPU and GPU are same
+Scripts for 2 datasets MNIST and Cifar 10
 
-pip install scipy
+For MNIST directly run MNIST test.py
+
+For Cifar10 instructions are inside that folder
+
+## Output for MNIST
+
+### GPU
 
 
-pip install sklearn
+### CPU
