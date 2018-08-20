@@ -1,5 +1,6 @@
 For cpu and Gpu both files are same
 In gpu environment it will automatically takes gpu and this can be seen in the time difference to run same script in GPU and CPU env
+It will also print detals of GPU use in case of GPU
 
 ## GPU env output
 
