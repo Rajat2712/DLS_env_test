@@ -1,9 +1,9 @@
 For cpu and Gpu both files are same
 In gpu environment it will automatically takes gpu and this can be seen in the time difference to run same script in GPU and CPU env
 
-##GPU env output
+## GPU env output
 
-###Keras_test
+### Keras_test
 ![gpu1](https://user-images.githubusercontent.com/23000971/44314725-8c601b80-a439-11e8-8ce6-626a98bde5c2.png)
 
 ### keras_conv_test
